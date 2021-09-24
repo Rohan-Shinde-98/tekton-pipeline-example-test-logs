@@ -125,18 +125,18 @@
 === RUN   TestExamples/v1alpha1/taskruns/build-push-kaniko
 === PAUSE TestExamples/v1alpha1/taskruns/build-push-kaniko
 === CONT  TestExamples/v1alpha1/taskruns/build-push-kaniko
-    init_test.go:135: Create namespace arendelle-dvn76 to deploy to
-    init_test.go:163: Verify SA "default" is created in namespace "arendelle-dvn76"
+    init_test.go:135: Create namespace arendelle-cp76z to deploy to
+    init_test.go:163: Verify SA "default" is created in namespace "arendelle-cp76z"
     examples_test.go:62: Failed waiting for task run done: "build-push-kaniko" failed
     panic.go:636: ############################################
-    panic.go:636: ### Dumping objects from arendelle-dvn76 ###
+    panic.go:636: ### Dumping objects from arendelle-cp76z ###
     panic.go:636: ############################################
     panic.go:636: 
         ---
         apiVersion: tekton.dev/v1alpha1
         kind: PipelineResource
         metadata:
-          creationTimestamp: "2021-09-24T06:06:27Z"
+          creationTimestamp: "2021-09-24T07:38:08Z"
           generation: 1
           managedFields:
           - apiVersion: tekton.dev/v1alpha1
@@ -148,12 +148,12 @@
                 f:type: {}
             manager: kubectl-create
             operation: Update
-            time: "2021-09-24T06:06:27Z"
+            time: "2021-09-24T07:38:08Z"
           name: skaffold-git-build-push-kaniko
-          namespace: arendelle-dvn76
-          resourceVersion: "3816070"
-          selfLink: /apis/tekton.dev/v1alpha1/namespaces/arendelle-dvn76/pipelineresources/skaffold-git-build-push-kaniko
-          uid: d9a08bf0-8686-444b-811a-67092922f8cf
+          namespace: arendelle-cp76z
+          resourceVersion: "3864857"
+          selfLink: /apis/tekton.dev/v1alpha1/namespaces/arendelle-cp76z/pipelineresources/skaffold-git-build-push-kaniko
+          uid: 031bd6b9-f8bc-477f-a9ee-93b719a93af9
         spec:
           params:
           - name: revision
@@ -166,7 +166,7 @@
         apiVersion: tekton.dev/v1alpha1
         kind: PipelineResource
         metadata:
-          creationTimestamp: "2021-09-24T06:06:27Z"
+          creationTimestamp: "2021-09-24T07:38:08Z"
           generation: 1
           managedFields:
           - apiVersion: tekton.dev/v1alpha1
@@ -178,12 +178,12 @@
                 f:type: {}
             manager: kubectl-create
             operation: Update
-            time: "2021-09-24T06:06:27Z"
+            time: "2021-09-24T07:38:08Z"
           name: skaffold-image-leeroy-web-build-push-kaniko
-          namespace: arendelle-dvn76
-          resourceVersion: "3816069"
-          selfLink: /apis/tekton.dev/v1alpha1/namespaces/arendelle-dvn76/pipelineresources/skaffold-image-leeroy-web-build-push-kaniko
-          uid: 9685dbf4-c711-4ec3-9bc3-be154e5c5ead
+          namespace: arendelle-cp76z
+          resourceVersion: "3864856"
+          selfLink: /apis/tekton.dev/v1alpha1/namespaces/arendelle-cp76z/pipelineresources/skaffold-image-leeroy-web-build-push-kaniko
+          uid: b8e5df12-a7c4-4ce5-a92d-729c6fa74c51
         spec:
           params:
           - name: url
@@ -194,7 +194,7 @@
         apiVersion: tekton.dev/v1beta1
         kind: Task
         metadata:
-          creationTimestamp: "2021-09-24T06:06:27Z"
+          creationTimestamp: "2021-09-24T07:38:08Z"
           generation: 1
           managedFields:
           - apiVersion: tekton.dev/v1alpha1
@@ -213,12 +213,12 @@
                 f:steps: {}
             manager: kubectl-create
             operation: Update
-            time: "2021-09-24T06:06:27Z"
+            time: "2021-09-24T07:38:08Z"
           name: build-push-kaniko
-          namespace: arendelle-dvn76
-          resourceVersion: "3816071"
-          selfLink: /apis/tekton.dev/v1beta1/namespaces/arendelle-dvn76/tasks/build-push-kaniko
-          uid: ab2fbf9a-2523-47c5-8964-ce0630e50aa8
+          namespace: arendelle-cp76z
+          resourceVersion: "3864858"
+          selfLink: /apis/tekton.dev/v1beta1/namespaces/arendelle-cp76z/tasks/build-push-kaniko
+          uid: e3ed76a4-be21-44ca-9593-272d48cd5416
         spec:
           params:
           - default: /workspace/workspace/Dockerfile
@@ -296,7 +296,7 @@
         metadata:
           annotations:
             pipeline.tekton.dev/release: dd6a931
-          creationTimestamp: "2021-09-24T06:06:27Z"
+          creationTimestamp: "2021-09-24T07:38:08Z"
           generation: 1
           labels:
             app.kubernetes.io/managed-by: tekton-pipelines
@@ -319,7 +319,7 @@
                   f:name: {}
             manager: kubectl-create
             operation: Update
-            time: "2021-09-24T06:06:27Z"
+            time: "2021-09-24T07:38:08Z"
           - apiVersion: tekton.dev/v1beta1
             fieldsType: FieldsV1
             fieldsV1:
@@ -347,12 +347,12 @@
                   f:steps: {}
             manager: controller
             operation: Update
-            time: "2021-09-24T06:06:47Z"
+            time: "2021-09-24T07:38:35Z"
           name: build-push-kaniko
-          namespace: arendelle-dvn76
-          resourceVersion: "3816230"
-          selfLink: /apis/tekton.dev/v1beta1/namespaces/arendelle-dvn76/taskruns/build-push-kaniko
-          uid: 4f7baaed-5795-482c-b366-2f3bd8f3596e
+          namespace: arendelle-cp76z
+          resourceVersion: "3865055"
+          selfLink: /apis/tekton.dev/v1beta1/namespaces/arendelle-cp76z/taskruns/build-push-kaniko
+          uid: caf71264-e790-435e-9338-17f71b964558
         spec:
           params:
           - name: pathToDockerFile
@@ -376,60 +376,60 @@
             name: build-push-kaniko
           timeout: 1h0m0s
         status:
-          completionTime: "2021-09-24T06:06:47Z"
+          completionTime: "2021-09-24T07:38:35Z"
           conditions:
-          - lastTransitionTime: "2021-09-24T06:06:47Z"
+          - lastTransitionTime: "2021-09-24T07:38:35Z"
             message: |
-              "step-build-and-push" exited with code 1 (image: "docker-pullable://ibmcom/kaniko-project-executor-ppc64le@sha256:12b70da4fd0a89d103e12c0d7900ae416995f13229e2aea8919fd15e52dfa76e"); for logs run: kubectl -n arendelle-dvn76 logs build-push-kaniko-pod-vm9fp -c step-build-and-push
+              "step-build-and-push" exited with code 1 (image: "docker-pullable://ibmcom/kaniko-project-executor-ppc64le@sha256:12b70da4fd0a89d103e12c0d7900ae416995f13229e2aea8919fd15e52dfa76e"); for logs run: kubectl -n arendelle-cp76z logs build-push-kaniko-pod-jwxvz -c step-build-and-push
             reason: Failed
             status: "False"
             type: Succeeded
-          podName: build-push-kaniko-pod-vm9fp
+          podName: build-push-kaniko-pod-jwxvz
           sidecars:
           - container: sidecar-registry
             imageID: docker-pullable://ppc64le/registry@sha256:b30e5b352ab4e523d7a02a0a99ca0dc32b1c61c71507b82c17f26b31c6a75632
             name: registry
             running:
-              startedAt: "2021-09-24T06:06:33Z"
-          startTime: "2021-09-24T06:06:27Z"
+              startedAt: "2021-09-24T07:38:14Z"
+          startTime: "2021-09-24T07:38:08Z"
           steps:
-          - container: step-create-dir-builtimage-z2kf8
+          - container: step-create-dir-builtimage-n9csz
             imageID: docker-pullable://gcr.io/distroless/base@sha256:aa4fd987555ea10e1a4ec8765da8158b5ffdfef1e72da512c7ede509bc9966c4
-            name: create-dir-builtimage-z2kf8
+            name: create-dir-builtimage-n9csz
             terminated:
-              containerID: docker://9616f748e339d62f3304f7a32a91f06a9e353b41b08754edb31f9ade1cdd7a87
+              containerID: docker://1cf2467f053b0fd98b93e57639481ad3a79dd3f9b30975613dba370a2f6fc1fd
               exitCode: 0
-              finishedAt: "2021-09-24T06:06:36Z"
+              finishedAt: "2021-09-24T07:38:19Z"
               reason: Completed
-              startedAt: "2021-09-24T06:06:36Z"
-          - container: step-git-source-workspace-7rngf
+              startedAt: "2021-09-24T07:38:19Z"
+          - container: step-git-source-workspace-fkkzc
             imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/git-init-4874978a9786b6625dd8b6ef2a21aa70@sha256:c5cab2b09763e83d95d01df212b9666abfa6348a56b4496e0e7e914cfe150f5f
-            name: git-source-workspace-7rngf
+            name: git-source-workspace-fkkzc
             terminated:
-              containerID: docker://1cf28095dcc08330a72b885b7af6a16d3d9654e67a4a91fb656bee00f2c8b04f
+              containerID: docker://524adc755d39e9f0fe969f74fd801e33a5ea5d003f964471d8c946e3e4b5f378
               exitCode: 0
-              finishedAt: "2021-09-24T06:06:44Z"
+              finishedAt: "2021-09-24T07:38:30Z"
               message: '[{"key":"commit","value":"edd1d458902d64e51e17b83514e1fc693c248259","resourceName":"workspace","resourceRef":{"name":"workspace"}},{"key":"url","value":"https://github.com/GoogleContainerTools/skaffold","resourceName":"workspace","resourceRef":{"name":"workspace"}}]'
               reason: Completed
-              startedAt: "2021-09-24T06:06:36Z"
+              startedAt: "2021-09-24T07:38:20Z"
           - container: step-build-and-push
             imageID: docker-pullable://ibmcom/kaniko-project-executor-ppc64le@sha256:12b70da4fd0a89d103e12c0d7900ae416995f13229e2aea8919fd15e52dfa76e
             name: build-and-push
             terminated:
-              containerID: docker://0c7226bda76437590a60fc210ce04e8919f05070d28815485edd797526c4dc03
+              containerID: docker://5ae1609f9580faee33ddd9f2476f5709872d5533501f80a451d013083facea41
               exitCode: 1
-              finishedAt: "2021-09-24T06:06:46Z"
+              finishedAt: "2021-09-24T07:38:35Z"
               reason: Error
-              startedAt: "2021-09-24T06:06:45Z"
-          - container: step-image-digest-exporter-2ggxq
+              startedAt: "2021-09-24T07:38:30Z"
+          - container: step-image-digest-exporter-dg7q9
             imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/imagedigestexporter-6e7c518e6125f31761ebe0b96cc63971@sha256:4b49cd61de200fabf6c6446ceb9b4391ca99298d900a905b3e069dd429421b29
-            name: image-digest-exporter-2ggxq
+            name: image-digest-exporter-dg7q9
             terminated:
-              containerID: docker://edb359144fbd793386f238a6a9b63509174b0c42b98918a98cca25178cfbd92e
+              containerID: docker://2ceb606fa0cb78660d048ba15c2b88b588adf1ebb2f7cdb945c7bceefb9fb37c
               exitCode: 1
-              finishedAt: "2021-09-24T06:06:46Z"
+              finishedAt: "2021-09-24T07:38:35Z"
               reason: Error
-              startedAt: "2021-09-24T06:06:45Z"
+              startedAt: "2021-09-24T07:38:33Z"
           taskSpec:
             params:
             - default: /workspace/workspace/Dockerfile
@@ -473,12 +473,12 @@
         ---
         metadata:
           annotations:
-            cni.projectcalico.org/containerID: c602cac6f5068e75d04e4db3f4d37ce8ce92335ac63785a2e03d2192a085f981
-            cni.projectcalico.org/podIP: 172.20.64.60/32
-            cni.projectcalico.org/podIPs: 172.20.64.60/32
+            cni.projectcalico.org/containerID: 7156324af7097f5073276deb446c031d7f6261bde918f93216ac2da12e95ace0
+            cni.projectcalico.org/podIP: 172.20.64.7/32
+            cni.projectcalico.org/podIPs: 172.20.64.7/32
             pipeline.tekton.dev/release: dd6a931
             tekton.dev/ready: READY
-          creationTimestamp: "2021-09-24T06:06:27Z"
+          creationTimestamp: "2021-09-24T07:38:09Z"
           labels:
             app.kubernetes.io/managed-by: tekton-pipelines
             tekton.dev/task: build-push-kaniko
@@ -494,7 +494,7 @@
                   f:cni.projectcalico.org/podIPs: {}
             manager: calico
             operation: Update
-            time: "2021-09-24T06:06:29Z"
+            time: "2021-09-24T07:38:10Z"
           - apiVersion: v1
             fieldsType: FieldsV1
             fieldsV1:
@@ -510,7 +510,7 @@
                   f:tekton.dev/taskRun: {}
                 f:ownerReferences:
                   .: {}
-                  k:{"uid":"4f7baaed-5795-482c-b366-2f3bd8f3596e"}:
+                  k:{"uid":"caf71264-e790-435e-9338-17f71b964558"}:
                     .: {}
                     f:apiVersion: {}
                     f:blockOwnerDeletion: {}
@@ -579,7 +579,7 @@
                         .: {}
                         f:mountPath: {}
                         f:name: {}
-                  k:{"name":"step-create-dir-builtimage-z2kf8"}:
+                  k:{"name":"step-create-dir-builtimage-n9csz"}:
                     .: {}
                     f:args: {}
                     f:command: {}
@@ -624,7 +624,7 @@
                         .: {}
                         f:mountPath: {}
                         f:name: {}
-                  k:{"name":"step-git-source-workspace-7rngf"}:
+                  k:{"name":"step-git-source-workspace-fkkzc"}:
                     .: {}
                     f:args: {}
                     f:command: {}
@@ -676,7 +676,7 @@
                         f:mountPath: {}
                         f:name: {}
                     f:workingDir: {}
-                  k:{"name":"step-image-digest-exporter-2ggxq"}:
+                  k:{"name":"step-image-digest-exporter-dg7q9"}:
                     .: {}
                     f:args: {}
                     f:command: {}
@@ -802,7 +802,7 @@
                     f:name: {}
             manager: controller
             operation: Update
-            time: "2021-09-24T06:06:47Z"
+            time: "2021-09-24T07:38:35Z"
           - apiVersion: v1
             fieldsType: FieldsV1
             fieldsV1:
@@ -837,25 +837,25 @@
                 f:podIP: {}
                 f:podIPs:
                   .: {}
-                  k:{"ip":"172.20.64.60"}:
+                  k:{"ip":"172.20.64.7"}:
                     .: {}
                     f:ip: {}
                 f:startTime: {}
             manager: kubelet
             operation: Update
-            time: "2021-09-24T06:06:47Z"
-          name: build-push-kaniko-pod-vm9fp
-          namespace: arendelle-dvn76
+            time: "2021-09-24T07:38:35Z"
+          name: build-push-kaniko-pod-jwxvz
+          namespace: arendelle-cp76z
           ownerReferences:
           - apiVersion: tekton.dev/v1beta1
             blockOwnerDeletion: true
             controller: true
             kind: TaskRun
             name: build-push-kaniko
-            uid: 4f7baaed-5795-482c-b366-2f3bd8f3596e
-          resourceVersion: "3816231"
-          selfLink: /api/v1/namespaces/arendelle-dvn76/pods/build-push-kaniko-pod-vm9fp
-          uid: fb439948-6893-4fbd-b697-a7cd53b15b93
+            uid: caf71264-e790-435e-9338-17f71b964558
+          resourceVersion: "3865056"
+          selfLink: /api/v1/namespaces/arendelle-cp76z/pods/build-push-kaniko-pod-jwxvz
+          uid: f0134180-fae8-4683-9876-ee973c4bc2a3
         spec:
           activeDeadlineSeconds: 5400
           containers:
@@ -868,7 +868,7 @@
             - -termination_path
             - /tekton/termination
             - -step_metadata_dir
-            - /tekton/steps/step-create-dir-builtimage-z2kf8
+            - /tekton/steps/step-create-dir-builtimage-n9csz
             - -step_metadata_dir_link
             - /tekton/steps/0
             - -entrypoint
@@ -880,7 +880,7 @@
             - /tekton/bin/entrypoint
             image: gcr.io/distroless/base@sha256:aa4fd987555ea10e1a4ec8765da8158b5ffdfef1e72da512c7ede509bc9966c4
             imagePullPolicy: IfNotPresent
-            name: step-create-dir-builtimage-z2kf8
+            name: step-create-dir-builtimage-n9csz
             resources: {}
             terminationMessagePath: /tekton/termination
             terminationMessagePolicy: File
@@ -903,7 +903,7 @@
             - mountPath: /tekton/steps
               name: tekton-internal-steps
             - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
-              name: default-token-nmr2t
+              name: default-token-k59kk
               readOnly: true
           - args:
             - -wait_file
@@ -913,7 +913,7 @@
             - -termination_path
             - /tekton/termination
             - -step_metadata_dir
-            - /tekton/steps/step-git-source-workspace-7rngf
+            - /tekton/steps/step-git-source-workspace-fkkzc
             - -step_metadata_dir_link
             - /tekton/steps/1
             - -entrypoint
@@ -934,7 +934,7 @@
               value: /tekton/home
             image: ppc64le-cluster.bastion-p.svc.cluster.local:443/git-init-4874978a9786b6625dd8b6ef2a21aa70@sha256:c5cab2b09763e83d95d01df212b9666abfa6348a56b4496e0e7e914cfe150f5f
             imagePullPolicy: IfNotPresent
-            name: step-git-source-workspace-7rngf
+            name: step-git-source-workspace-fkkzc
             resources: {}
             terminationMessagePath: /tekton/termination
             terminationMessagePolicy: File
@@ -955,7 +955,7 @@
             - mountPath: /tekton/steps
               name: tekton-internal-steps
             - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
-              name: default-token-nmr2t
+              name: default-token-k59kk
               readOnly: true
             workingDir: /workspace
           - args:
@@ -1007,7 +1007,7 @@
             - mountPath: /tekton/steps
               name: tekton-internal-steps
             - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
-              name: default-token-nmr2t
+              name: default-token-k59kk
               readOnly: true
           - args:
             - -wait_file
@@ -1017,7 +1017,7 @@
             - -termination_path
             - /tekton/termination
             - -step_metadata_dir
-            - /tekton/steps/step-image-digest-exporter-2ggxq
+            - /tekton/steps/step-image-digest-exporter-dg7q9
             - -step_metadata_dir_link
             - /tekton/steps/3
             - -entrypoint
@@ -1029,7 +1029,7 @@
             - /tekton/bin/entrypoint
             image: ppc64le-cluster.bastion-p.svc.cluster.local:443/imagedigestexporter-6e7c518e6125f31761ebe0b96cc63971@sha256:4b49cd61de200fabf6c6446ceb9b4391ca99298d900a905b3e069dd429421b29
             imagePullPolicy: IfNotPresent
-            name: step-image-digest-exporter-2ggxq
+            name: step-image-digest-exporter-dg7q9
             resources: {}
             terminationMessagePath: /tekton/termination
             terminationMessagePolicy: File
@@ -1050,7 +1050,7 @@
             - mountPath: /tekton/steps
               name: tekton-internal-steps
             - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
-              name: default-token-nmr2t
+              name: default-token-k59kk
               readOnly: true
           - image: ppc64le-cluster.bastion-p.svc.cluster.local:443/nop-8eac7c133edad5df719dc37b36b62482@sha256:c6acf12a6d572eabade934756e3125bd20ca2c3ebf4018127db0b523b2693545
             imagePullPolicy: IfNotPresent
@@ -1060,7 +1060,7 @@
             terminationMessagePolicy: File
             volumeMounts:
             - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
-              name: default-token-nmr2t
+              name: default-token-k59kk
               readOnly: true
           dnsPolicy: ClusterFirst
           enableServiceLinks: true
@@ -1080,7 +1080,7 @@
             - mountPath: /tekton/bin
               name: tekton-internal-bin
             - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
-              name: default-token-nmr2t
+              name: default-token-k59kk
               readOnly: true
             workingDir: /
           nodeName: snat-vm1
@@ -1134,36 +1134,36 @@
           - emptyDir:
               medium: Memory
             name: tekton-creds-init-home-3
-          - name: default-token-nmr2t
+          - name: default-token-k59kk
             secret:
               defaultMode: 420
-              secretName: default-token-nmr2t
+              secretName: default-token-k59kk
         status:
           conditions:
           - lastProbeTime: null
-            lastTransitionTime: "2021-09-24T06:06:30Z"
+            lastTransitionTime: "2021-09-24T07:38:12Z"
             status: "True"
             type: Initialized
           - lastProbeTime: null
-            lastTransitionTime: "2021-09-24T06:06:36Z"
-            message: 'containers with unready status: [step-create-dir-builtimage-z2kf8 step-git-source-workspace-7rngf
-              step-build-and-push step-image-digest-exporter-2ggxq]'
+            lastTransitionTime: "2021-09-24T07:38:20Z"
+            message: 'containers with unready status: [step-create-dir-builtimage-n9csz step-git-source-workspace-fkkzc
+              step-build-and-push step-image-digest-exporter-dg7q9]'
             reason: ContainersNotReady
             status: "False"
             type: Ready
           - lastProbeTime: null
-            lastTransitionTime: "2021-09-24T06:06:36Z"
-            message: 'containers with unready status: [step-create-dir-builtimage-z2kf8 step-git-source-workspace-7rngf
-              step-build-and-push step-image-digest-exporter-2ggxq]'
+            lastTransitionTime: "2021-09-24T07:38:20Z"
+            message: 'containers with unready status: [step-create-dir-builtimage-n9csz step-git-source-workspace-fkkzc
+              step-build-and-push step-image-digest-exporter-dg7q9]'
             reason: ContainersNotReady
             status: "False"
             type: ContainersReady
           - lastProbeTime: null
-            lastTransitionTime: "2021-09-24T06:06:27Z"
+            lastTransitionTime: "2021-09-24T07:38:09Z"
             status: "True"
             type: PodScheduled
           containerStatuses:
-          - containerID: docker://c52a23a4ea1ab5326e25a8a9047ad58731c30863f033e6018c94a877807cee60
+          - containerID: docker://8e3766cc0d457e3702219fd77a68e8102e80ac4ebf90b2248b3693690344eb7e
             image: ppc64le/registry:2
             imageID: docker-pullable://ppc64le/registry@sha256:b30e5b352ab4e523d7a02a0a99ca0dc32b1c61c71507b82c17f26b31c6a75632
             lastState: {}
@@ -1173,8 +1173,8 @@
             started: true
             state:
               running:
-                startedAt: "2021-09-24T06:06:33Z"
-          - containerID: docker://0c7226bda76437590a60fc210ce04e8919f05070d28815485edd797526c4dc03
+                startedAt: "2021-09-24T07:38:14Z"
+          - containerID: docker://5ae1609f9580faee33ddd9f2476f5709872d5533501f80a451d013083facea41
             image: ibmcom/kaniko-project-executor-ppc64le:v0.17.1
             imageID: docker-pullable://ibmcom/kaniko-project-executor-ppc64le@sha256:12b70da4fd0a89d103e12c0d7900ae416995f13229e2aea8919fd15e52dfa76e
             lastState: {}
@@ -1184,63 +1184,63 @@
             started: false
             state:
               terminated:
-                containerID: docker://0c7226bda76437590a60fc210ce04e8919f05070d28815485edd797526c4dc03
+                containerID: docker://5ae1609f9580faee33ddd9f2476f5709872d5533501f80a451d013083facea41
                 exitCode: 1
-                finishedAt: "2021-09-24T06:06:46Z"
-                message: '[{"key":"StartedAt","value":"2021-09-24T06:06:45.322Z","type":3}]'
+                finishedAt: "2021-09-24T07:38:35Z"
+                message: '[{"key":"StartedAt","value":"2021-09-24T07:38:30.942Z","type":3}]'
                 reason: Error
-                startedAt: "2021-09-24T06:06:32Z"
-          - containerID: docker://9616f748e339d62f3304f7a32a91f06a9e353b41b08754edb31f9ade1cdd7a87
+                startedAt: "2021-09-24T07:38:13Z"
+          - containerID: docker://1cf2467f053b0fd98b93e57639481ad3a79dd3f9b30975613dba370a2f6fc1fd
             image: sha256:2b725792e3b49e8cfdc1214f355219693d58ac02ef3751cfaa451da71a46f29d
             imageID: docker-pullable://gcr.io/distroless/base@sha256:aa4fd987555ea10e1a4ec8765da8158b5ffdfef1e72da512c7ede509bc9966c4
             lastState: {}
-            name: step-create-dir-builtimage-z2kf8
+            name: step-create-dir-builtimage-n9csz
             ready: false
             restartCount: 0
             started: false
             state:
               terminated:
-                containerID: docker://9616f748e339d62f3304f7a32a91f06a9e353b41b08754edb31f9ade1cdd7a87
+                containerID: docker://1cf2467f053b0fd98b93e57639481ad3a79dd3f9b30975613dba370a2f6fc1fd
                 exitCode: 0
-                finishedAt: "2021-09-24T06:06:36Z"
-                message: '[{"key":"StartedAt","value":"2021-09-24T06:06:36.187Z","type":3}]'
+                finishedAt: "2021-09-24T07:38:19Z"
+                message: '[{"key":"StartedAt","value":"2021-09-24T07:38:19.895Z","type":3}]'
                 reason: Completed
-                startedAt: "2021-09-24T06:06:31Z"
-          - containerID: docker://1cf28095dcc08330a72b885b7af6a16d3d9654e67a4a91fb656bee00f2c8b04f
+                startedAt: "2021-09-24T07:38:12Z"
+          - containerID: docker://524adc755d39e9f0fe969f74fd801e33a5ea5d003f964471d8c946e3e4b5f378
             image: sha256:cea0a16c57943c0b9d9577db4017eea2781174e455281a93cf2533e42c62ad5f
             imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/git-init-4874978a9786b6625dd8b6ef2a21aa70@sha256:c5cab2b09763e83d95d01df212b9666abfa6348a56b4496e0e7e914cfe150f5f
             lastState: {}
-            name: step-git-source-workspace-7rngf
+            name: step-git-source-workspace-fkkzc
             ready: false
             restartCount: 0
             started: false
             state:
               terminated:
-                containerID: docker://1cf28095dcc08330a72b885b7af6a16d3d9654e67a4a91fb656bee00f2c8b04f
+                containerID: docker://524adc755d39e9f0fe969f74fd801e33a5ea5d003f964471d8c946e3e4b5f378
                 exitCode: 0
-                finishedAt: "2021-09-24T06:06:44Z"
-                message: '[{"key":"commit","value":"edd1d458902d64e51e17b83514e1fc693c248259","resourceName":"workspace","resourceRef":{"name":"workspace"}},{"key":"url","value":"https://github.com/GoogleContainerTools/skaffold","resourceName":"workspace","resourceRef":{"name":"workspace"}},{"key":"StartedAt","value":"2021-09-24T06:06:36.789Z","type":3}]'
+                finishedAt: "2021-09-24T07:38:30Z"
+                message: '[{"key":"commit","value":"edd1d458902d64e51e17b83514e1fc693c248259","resourceName":"workspace","resourceRef":{"name":"workspace"}},{"key":"url","value":"https://github.com/GoogleContainerTools/skaffold","resourceName":"workspace","resourceRef":{"name":"workspace"}},{"key":"StartedAt","value":"2021-09-24T07:38:20.502Z","type":3}]'
                 reason: Completed
-                startedAt: "2021-09-24T06:06:31Z"
-          - containerID: docker://edb359144fbd793386f238a6a9b63509174b0c42b98918a98cca25178cfbd92e
+                startedAt: "2021-09-24T07:38:13Z"
+          - containerID: docker://2ceb606fa0cb78660d048ba15c2b88b588adf1ebb2f7cdb945c7bceefb9fb37c
             image: sha256:6f40bd0d4755ea63b7c947c27d7693efd3c474110f5adf8da91beffc7582df41
             imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/imagedigestexporter-6e7c518e6125f31761ebe0b96cc63971@sha256:4b49cd61de200fabf6c6446ceb9b4391ca99298d900a905b3e069dd429421b29
             lastState: {}
-            name: step-image-digest-exporter-2ggxq
+            name: step-image-digest-exporter-dg7q9
             ready: false
             restartCount: 0
             started: false
             state:
               terminated:
-                containerID: docker://edb359144fbd793386f238a6a9b63509174b0c42b98918a98cca25178cfbd92e
+                containerID: docker://2ceb606fa0cb78660d048ba15c2b88b588adf1ebb2f7cdb945c7bceefb9fb37c
                 exitCode: 1
-                finishedAt: "2021-09-24T06:06:46Z"
-                message: '[{"key":"StartedAt","value":"2021-09-24T06:06:45.918Z","type":3}]'
+                finishedAt: "2021-09-24T07:38:35Z"
+                message: '[{"key":"StartedAt","value":"2021-09-24T07:38:33.490Z","type":3}]'
                 reason: Error
-                startedAt: "2021-09-24T06:06:32Z"
+                startedAt: "2021-09-24T07:38:14Z"
           hostIP: 192.168.100.196
           initContainerStatuses:
-          - containerID: docker://2ab7e2ad9d15fa70bd008233fbb73815b198ae43c09f75a289ec1e4d4ff9611a
+          - containerID: docker://4a8eef330ab3feb75b8ea5ac594a7e3fd89ad8a7668d51fbf01cc4fc02523469
             image: sha256:d975546f4bb18a7f980643e2b244701ceecc3e613dc20593a1ac98836f125993
             imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/entrypoint-bff0a22da108bc2f16c818c97641a296@sha256:df99833a9fc55f041338a47a82b1af7aa4862c0481ec6e65c1516f018b438caf
             lastState: {}
@@ -1249,45 +1249,75 @@
             restartCount: 0
             state:
               terminated:
-                containerID: docker://2ab7e2ad9d15fa70bd008233fbb73815b198ae43c09f75a289ec1e4d4ff9611a
+                containerID: docker://4a8eef330ab3feb75b8ea5ac594a7e3fd89ad8a7668d51fbf01cc4fc02523469
                 exitCode: 0
-                finishedAt: "2021-09-24T06:06:30Z"
+                finishedAt: "2021-09-24T07:38:11Z"
                 reason: Completed
-                startedAt: "2021-09-24T06:06:29Z"
+                startedAt: "2021-09-24T07:38:11Z"
           phase: Running
-          podIP: 172.20.64.60
+          podIP: 172.20.64.7
           podIPs:
-          - ip: 172.20.64.60
+          - ip: 172.20.64.7
           qosClass: BestEffort
-          startTime: "2021-09-24T06:06:28Z"
+          startTime: "2021-09-24T07:38:09Z"
         
     panic.go:636: #####################################################
-    panic.go:636: ### Dumping logs from Pods in the arendelle-dvn76 ###
+    panic.go:636: ### Dumping logs from Pods in the arendelle-cp76z ###
     panic.go:636: #####################################################
     build_logs.go:37: build logs 
-        >>> Container step-create-dir-builtimage-z2kf8:
+        >>> Container step-create-dir-builtimage-n9csz:
         
-        >>> Container step-git-source-workspace-7rngf:
-        {"level":"info","ts":1632463604.4441772,"caller":"git/git.go:169","msg":"Successfully cloned https://github.com/GoogleContainerTools/skaffold @ edd1d458902d64e51e17b83514e1fc693c248259 (grafted, HEAD) in path /workspace/workspace"}
-        {"level":"info","ts":1632463604.4661198,"caller":"git/git.go:207","msg":"Successfully initialized and updated submodules in path /workspace/workspace"}
+        >>> Container step-git-source-workspace-fkkzc:
+        {"level":"info","ts":1632469110.0839376,"caller":"git/git.go:169","msg":"Successfully cloned https://github.com/GoogleContainerTools/skaffold @ edd1d458902d64e51e17b83514e1fc693c248259 (grafted, HEAD) in path /workspace/workspace"}
+        {"level":"info","ts":1632469110.104261,"caller":"git/git.go:207","msg":"Successfully initialized and updated submodules in path /workspace/workspace"}
         
         >>> Container step-build-and-push:
-        error checking push permissions -- make sure you entered the correct tag name, and that you are authenticated correctly, and try again: checking push permission for "localhost:5000/leeroy-web": creating push check transport for localhost:5000 failed: Get http://localhost:5000/v2/: dial tcp [::1]:5000: connect: cannot assign requested address
+        [36mINFO[0m[0000] Resolved base name golang:1.15 to golang:1.15 
+        [36mINFO[0m[0000] Resolved base name $BASE to                  
+        [36mINFO[0m[0000] Resolved base name golang:1.15 to golang:1.15 
+        [36mINFO[0m[0000] Resolved base name $BASE to                  
+        [36mINFO[0m[0000] Retrieving image manifest golang:1.15        
+        [36mINFO[0m[0001] Retrieving image manifest golang:1.15        
+        [31mERRO[0m[0001] Error while retrieving image from cache:  could not parse reference:  
+        [36mINFO[0m[0001] Retrieving image manifest                    
+        error building image: could not parse reference: 
         
-        >>> Container step-image-digest-exporter-2ggxq:
-        2021/09/24 06:06:46 Skipping step because a previous step failed
+        >>> Container step-image-digest-exporter-dg7q9:
+        2021/09/24 07:38:35 Skipping step because a previous step failed
         
         >>> Container sidecar-registry:
-        time="2021-09-24T06:06:33.447388Z" level=info msg="debug server listening localhost:5001" 
-        time="2021-09-24T06:06:33.448874Z" level=warning msg="No HTTP secret provided - generated random secret. This may cause problems with uploads if multiple registries are behind a load-balancer. To provide a shared secret, fill in http.secret in the configuration file or set the REGISTRY_HTTP_SECRET environment variable." environment=development go.version=go1.6.2 instance.id=cac629b3-abf0-41e6-927b-d0814a162c22 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
-        time="2021-09-24T06:06:33.448914Z" level=info msg="endpoint local-5003 disabled, skipping" environment=development go.version=go1.6.2 instance.id=cac629b3-abf0-41e6-927b-d0814a162c22 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
-        time="2021-09-24T06:06:33.448943Z" level=info msg="endpoint local-8083 disabled, skipping" environment=development go.version=go1.6.2 instance.id=cac629b3-abf0-41e6-927b-d0814a162c22 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
-        time="2021-09-24T06:06:33.451079Z" level=info msg="using redis blob descriptor cache" environment=development go.version=go1.6.2 instance.id=cac629b3-abf0-41e6-927b-d0814a162c22 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
-        time="2021-09-24T06:06:33.451247Z" level=info msg="listening on [::]:5000" environment=development go.version=go1.6.2 instance.id=cac629b3-abf0-41e6-927b-d0814a162c22 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
-        time="2021-09-24T06:06:43.451589Z" level=debug msg="filesystem.List(\"/\")" environment=development go.version=go1.6.2 instance.id=cac629b3-abf0-41e6-927b-d0814a162c22 service=registry trace.duration=89µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).List" trace.id=9bad4bbe-0a86-40c0-a829-7526ba7b1de4 trace.line=150 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:15.011816Z" level=info msg="debug server listening localhost:5001" 
+        time="2021-09-24T07:38:15.012963Z" level=warning msg="No HTTP secret provided - generated random secret. This may cause problems with uploads if multiple registries are behind a load-balancer. To provide a shared secret, fill in http.secret in the configuration file or set the REGISTRY_HTTP_SECRET environment variable." environment=development go.version=go1.6.2 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:15.013012Z" level=info msg="endpoint local-5003 disabled, skipping" environment=development go.version=go1.6.2 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:15.013045Z" level=info msg="endpoint local-8083 disabled, skipping" environment=development go.version=go1.6.2 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:15.015189Z" level=info msg="using redis blob descriptor cache" environment=development go.version=go1.6.2 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:15.015342Z" level=info msg="listening on [::]:5000" environment=development go.version=go1.6.2 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:25.015698Z" level=debug msg="filesystem.List(\"/\")" environment=development go.version=go1.6.2 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=91µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).List" trace.id=b7c7a1e2-d5d5-4acc-a311-16e47b1baadf trace.line=150 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:31.979552Z" level=debug msg="authorizing request" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=d74cc576-4809-480c-9219-57444b3441e3 http.request.method=GET http.request.remoteaddr="127.0.0.1:48156" http.request.uri="/v2/" http.request.useragent="Go-http-client/1.1" instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:31.979698Z" level=info msg="response completed" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=d74cc576-4809-480c-9219-57444b3441e3 http.request.method=GET http.request.remoteaddr="127.0.0.1:48156" http.request.uri="/v2/" http.request.useragent="Go-http-client/1.1" http.response.contenttype="application/json; charset=utf-8" http.response.duration=4.325ms http.response.status=200 http.response.written=2 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        127.0.0.1 - - [24/Sep/2021:07:38:31 +0000] "GET /v2/ HTTP/1.1" 200 2 "" "Go-http-client/1.1"
+        time="2021-09-24T07:38:31.986081Z" level=debug msg="authorizing request" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f263c5d1-9381-453a-9ead-f31bc0d9a600 http.request.method=POST http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:31.98624Z" level=debug msg="(*linkedBlobStore).Writer" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f263c5d1-9381-453a-9ead-f31bc0d9a600 http.request.method=POST http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.020905Z" level=debug msg="filesystem.PutContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/60158be8-fcde-424a-8adf-cacd27624502/startedat\")" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f263c5d1-9381-453a-9ead-f31bc0d9a600 http.request.method=POST http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=34.548ms trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).PutContent" trace.id=b183e311-7662-4f24-92b0-9c99895d28f5 trace.line=95 vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.021271Z" level=debug msg="filesystem.Writer(\"/docker/registry/v2/repositories/leeroy-web/_uploads/60158be8-fcde-424a-8adf-cacd27624502/data\", false)" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f263c5d1-9381-453a-9ead-f31bc0d9a600 http.request.method=POST http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=219µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).Writer" trace.id=63e84986-97ed-4bb0-b713-8065f5dbf1bf trace.line=124 vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.069573Z" level=debug msg="filesystem.PutContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/60158be8-fcde-424a-8adf-cacd27624502/hashstates/sha256/0\")" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f263c5d1-9381-453a-9ead-f31bc0d9a600 http.request.method=POST http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=47.902ms trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).PutContent" trace.id=db60d5f7-0691-4450-9821-3f8b5a15ea58 trace.line=95 vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.07012Z" level=info msg="response completed" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f263c5d1-9381-453a-9ead-f31bc0d9a600 http.request.method=POST http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry http.response.duration=85.871ms http.response.status=202 http.response.written=0 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        127.0.0.1 - - [24/Sep/2021:07:38:31 +0000] "POST /v2/leeroy-web/blobs/uploads/ HTTP/1.1" 202 0 "" "go-containerregistry"
+        time="2021-09-24T07:38:32.073723Z" level=debug msg="authorizing request" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry vars.name=leeroy-web vars.uuid=60158be8-fcde-424a-8adf-cacd27624502 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.073995Z" level=debug msg="(*linkedBlobStore).Resume" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry vars.name=leeroy-web vars.uuid=60158be8-fcde-424a-8adf-cacd27624502 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.074182Z" level=debug msg="filesystem.GetContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/60158be8-fcde-424a-8adf-cacd27624502/startedat\")" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=84µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).GetContent" trace.id=4f91b7f6-132a-4e44-a30c-ae7bdc00424a trace.line=82 vars.name=leeroy-web vars.uuid=60158be8-fcde-424a-8adf-cacd27624502 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.074347Z" level=debug msg="filesystem.Writer(\"/docker/registry/v2/repositories/leeroy-web/_uploads/60158be8-fcde-424a-8adf-cacd27624502/data\", true)" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=52µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).Writer" trace.id=effe658a-0940-494a-9f34-f85193cfd40e trace.line=124 vars.name=leeroy-web vars.uuid=60158be8-fcde-424a-8adf-cacd27624502 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.074434Z" level=debug msg="(*blobWriter).Cancel" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry vars.name=leeroy-web vars.uuid=60158be8-fcde-424a-8adf-cacd27624502 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.119514Z" level=debug msg="filesystem.PutContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/60158be8-fcde-424a-8adf-cacd27624502/hashstates/sha256/0\")" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=44.87ms trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).PutContent" trace.id=cba8046a-2a78-4afc-ae92-242dcd9aaa86 trace.line=95 vars.name=leeroy-web vars.uuid=60158be8-fcde-424a-8adf-cacd27624502 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.119614Z" level=error msg="error closing blobwriter: fsync: bad file descriptor" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry vars.name=leeroy-web vars.uuid=60158be8-fcde-424a-8adf-cacd27624502 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.120022Z" level=debug msg="filesystem.Delete(\"/docker/registry/v2/repositories/leeroy-web/_uploads/60158be8-fcde-424a-8adf-cacd27624502\")" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=302µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).Delete" trace.id=a92ec9bd-f618-46f7-9570-303128a459b4 trace.line=177 vars.name=leeroy-web vars.uuid=60158be8-fcde-424a-8adf-cacd27624502 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.121003Z" level=debug msg="filesystem.PutContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/60158be8-fcde-424a-8adf-cacd27624502/hashstates/sha256/0\")" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=813µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).PutContent" trace.id=e9177dff-bbab-479e-bd17-bd7aba209037 trace.line=95 vars.name=leeroy-web vars.uuid=60158be8-fcde-424a-8adf-cacd27624502 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-24T07:38:32.121122Z" level=info msg="response completed" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ba5bbda0-6f17-4b5c-807c-a7270147be8b http.request.method=DELETE http.request.remoteaddr="127.0.0.1:48158" http.request.uri="/v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D" http.request.useragent=go-containerregistry http.response.duration=50.358ms http.response.status=204 http.response.written=0 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        127.0.0.1 - - [24/Sep/2021:07:38:32 +0000] "DELETE /v2/leeroy-web/blobs/uploads/60158be8-fcde-424a-8adf-cacd27624502?_state=OkkxhPJ1sms0n1iJeQv24jYTRsvtOxK36DVLdpnAOAZ7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjYwMTU4YmU4LWZjZGUtNDI0YS04YWRmLWNhY2QyNzYyNDUwMiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yNFQwNzozODozMS45ODYyODhaIn0%3D HTTP/1.1" 204 0 "" "go-containerregistry"
+        time="2021-09-24T07:38:35.015641Z" level=debug msg="filesystem.List(\"/\")" environment=development go.version=go1.6.2 instance.id=953742b0-7e65-4e1a-91ba-151c988f91c8 service=registry trace.duration=59µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).List" trace.id=296847ab-af11-4af6-af28-05ebaeece3cc trace.line=150 version=v2.5.0-rc.1-67-g4abae2a.m 
 --- FAIL: TestExamples (0.23s)
-    --- FAIL: TestExamples/v1alpha1/taskruns/build-push-kaniko (22.23s)
+    --- FAIL: TestExamples/v1alpha1/taskruns/build-push-kaniko (28.37s)
 FAIL
 Using kubeconfig at `` with cluster ``
-FAIL	github.com/tektoncd/pipeline/test	22.623s
+FAIL	github.com/tektoncd/pipeline/test	28.727s
 FAIL
