@@ -1,0 +1,1359 @@
+=== RUN   TestExamples
+    path_filtering.go:62: Allowing only "stable" examples
+=== PAUSE TestExamples
+=== CONT  TestExamples
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/clustertask-pipelinerun.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/conditional-pipelinerun-with-optional-resources.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/conditional-pipelinerun-with-same-condition-refer.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/conditional-pipelinerun.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/demo-optional-resources.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/output-pipelinerun.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/pipelinerun-with-params.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/pipelinerun-with-pipelinespec-and-taskspec.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/pipelinerun-with-pipelinespec.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/pipelinerun-with-resourcespec.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/pipelinerun.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/task_results_example.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/pipelineruns/workspaces.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/build-push-kaniko.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/cloud-event.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/clustertask.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/configmap.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/custom-env.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/custom-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/dind-sidecar.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/gcs-resource.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/git-resource.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/git-ssh-creds.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/git-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/home-is-set.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/home-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/optional-resources-with-clustertask.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/optional-resources.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/pullrequest.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/secret-env.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/secret-volume-params.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/secret-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/sidecar-interp.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/sidecar-ready-script.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/sidecar-ready.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/step-by-digest.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/step-script.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/steps-run-in-order.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/steptemplate-env-merge.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/task-multiple-output-image.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/task-output-image.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/task-result.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/task-volume-args.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/template-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/unnamed-steps.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/workingdir.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/workspace-readonly.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/workspace-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1alpha1/taskruns/workspace.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/clustertask-pipelinerun.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/conditional-pipelinerun-with-optional-resources.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/conditional-pipelinerun-with-same-condition-refer.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/conditional-pipelinerun.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/demo-optional-resources.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/optional-workspaces.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/output-pipelinerun.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipeline-result-conditions.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-results-with-params.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-results.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-task-execution-status.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-using-different-subpaths-of-workspace.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-with-extra-params.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-with-final-tasks.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-with-parallel-tasks-using-pvc.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-with-params.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-with-pipelinespec-and-taskspec.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-with-pipelinespec.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-with-resourcespec.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun-with-when-expressions.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/pipelinerun.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/task_results_example.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/using-optional-workspaces-in-when-expressions.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/using-retries-and-retry-count-variables.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/using_context_variables.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/workspace-from-volumeclaimtemplate.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/pipelineruns/workspaces.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/authenticating-git-commands.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/cloud-event.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/clustertask.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/configmap.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/creds-init-only-mounts-provided-credentials.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/custom-env.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/custom-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/dind-sidecar.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/gcs-resource.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/git-resource.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/git-ssh-creds-without-known_hosts.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/git-ssh-creds.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/git-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/home-is-set.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/home-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/image-params.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/optional-resources-with-clustertask.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/optional-resources.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/optional-workspaces.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/pullrequest.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/pullrequest_input_copystep_output.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/run-steps-as-non-root.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/secret-env.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/secret-volume-params.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/secret-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/sidecar-interp.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/sidecar-ready-script.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/sidecar-ready.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/step-by-digest.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/step-script.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/steps-run-in-order.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/steptemplate-env-merge.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/task-multiple-output-image.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/task-output-image.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/task-result.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/task-volume-args.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/template-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/unnamed-steps.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/using_context_variables.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/workingdir.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/workspace-in-sidecar.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/workspace-readonly.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/workspace-volume.yaml
+    examples_test.go:201: Adding test ../examples/v1beta1/taskruns/workspace.yaml
+=== RUN   TestExamples/v1alpha1/taskruns/build-push-kaniko
+=== PAUSE TestExamples/v1alpha1/taskruns/build-push-kaniko
+=== CONT  TestExamples/v1alpha1/taskruns/build-push-kaniko
+    init_test.go:135: Create namespace arendelle-l767d to deploy to
+    init_test.go:163: Verify SA "default" is created in namespace "arendelle-l767d"
+    examples_test.go:62: Failed waiting for task run done: "build-push-kaniko" failed
+    panic.go:636: ############################################
+    panic.go:636: ### Dumping objects from arendelle-l767d ###
+    panic.go:636: ############################################
+    panic.go:636: 
+        ---
+        apiVersion: tekton.dev/v1alpha1
+        kind: PipelineResource
+        metadata:
+          creationTimestamp: "2021-09-27T09:48:46Z"
+          generation: 1
+          managedFields:
+          - apiVersion: tekton.dev/v1alpha1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:spec:
+                .: {}
+                f:params: {}
+                f:type: {}
+            manager: kubectl-create
+            operation: Update
+            time: "2021-09-27T09:48:46Z"
+          name: skaffold-git-build-push-kaniko
+          namespace: arendelle-l767d
+          resourceVersion: "5553253"
+          selfLink: /apis/tekton.dev/v1alpha1/namespaces/arendelle-l767d/pipelineresources/skaffold-git-build-push-kaniko
+          uid: af6e8978-0fed-4a88-92b7-8b0d4d5ca666
+        spec:
+          params:
+          - name: revision
+            value: v1.32.0
+          - name: url
+            value: https://github.com/GoogleContainerTools/skaffold
+          type: git
+        
+        ---
+        apiVersion: tekton.dev/v1alpha1
+        kind: PipelineResource
+        metadata:
+          creationTimestamp: "2021-09-27T09:48:46Z"
+          generation: 1
+          managedFields:
+          - apiVersion: tekton.dev/v1alpha1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:spec:
+                .: {}
+                f:params: {}
+                f:type: {}
+            manager: kubectl-create
+            operation: Update
+            time: "2021-09-27T09:48:46Z"
+          name: skaffold-image-leeroy-web-build-push-kaniko
+          namespace: arendelle-l767d
+          resourceVersion: "5553252"
+          selfLink: /apis/tekton.dev/v1alpha1/namespaces/arendelle-l767d/pipelineresources/skaffold-image-leeroy-web-build-push-kaniko
+          uid: 52ea89cb-4887-420f-b510-838041693ec1
+        spec:
+          params:
+          - name: url
+            value: localhost:5000/leeroy-web
+          type: image
+        
+        ---
+        apiVersion: tekton.dev/v1beta1
+        kind: Task
+        metadata:
+          creationTimestamp: "2021-09-27T09:48:46Z"
+          generation: 1
+          managedFields:
+          - apiVersion: tekton.dev/v1alpha1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:spec:
+                .: {}
+                f:inputs:
+                  .: {}
+                  f:params: {}
+                  f:resources: {}
+                f:outputs:
+                  .: {}
+                  f:resources: {}
+                f:sidecars: {}
+                f:steps: {}
+            manager: kubectl-create
+            operation: Update
+            time: "2021-09-27T09:48:46Z"
+          name: build-push-kaniko
+          namespace: arendelle-l767d
+          resourceVersion: "5553254"
+          selfLink: /apis/tekton.dev/v1beta1/namespaces/arendelle-l767d/tasks/build-push-kaniko
+          uid: 6171defe-a590-40c3-8247-7dfdf6eb3da3
+        spec:
+          params:
+          - default: /workspace/workspace/Dockerfile
+            description: The path to the dockerfile to build
+            name: pathToDockerFile
+            type: string
+          - default: /workspace/workspace
+            description: The build context used by Kaniko (https://github.com/GoogleContainerTools/kaniko#kaniko-build-contexts)
+            name: pathToContext
+            type: string
+          - default: alpine:3.9
+            name: BASE
+            type: string
+          resources:
+            inputs:
+            - name: workspace
+              type: git
+            outputs:
+            - name: builtImage
+              type: image
+          sidecars:
+          - image: ppc64le/registry:2
+            name: registry
+            resources: {}
+          steps:
+          - args:
+            - --dockerfile=$(inputs.params.pathToDockerFile)
+            - --destination=$(outputs.resources.builtImage.url)
+            - --context=$(inputs.params.pathToContext)
+            - --oci-layout-path=$(inputs.resources.builtImage.path)
+            - --build-arg=$(inputs.params.BASE)
+            env:
+            - name: DOCKER_CONFIG
+              value: /tekton/home/.docker/
+            image: ibmcom/kaniko-project-executor-ppc64le:v0.17.1
+            name: build-and-push
+            resources: {}
+            securityContext:
+              runAsUser: 0
+        
+        ---
+        apiVersion: tekton.dev/v1beta1
+        kind: ClusterTask
+        metadata:
+          creationTimestamp: "2021-09-20T08:50:19Z"
+          generation: 1
+          managedFields:
+          - apiVersion: tekton.dev/v1beta1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:spec:
+                .: {}
+                f:steps: {}
+            manager: kubectl-create
+            operation: Update
+            time: "2021-09-20T08:50:19Z"
+          name: cluster-task-pipeline-4
+          resourceVersion: "1698975"
+          selfLink: /apis/tekton.dev/v1beta1/clustertasks/cluster-task-pipeline-4
+          uid: 0e1573dd-438c-4fc3-b529-cf1a4415a2f9
+        spec:
+          steps:
+          - args:
+            - -c
+            - echo success
+            command:
+            - /bin/bash
+            image: ubuntu
+            name: task-two-step-one
+            resources: {}
+        
+        ---
+        apiVersion: tekton.dev/v1beta1
+        kind: ClusterTask
+        metadata:
+          creationTimestamp: "2021-09-24T08:36:54Z"
+          generation: 1
+          managedFields:
+          - apiVersion: tekton.dev/v1beta1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:spec:
+                .: {}
+                f:params: {}
+                f:steps: {}
+            manager: kubectl-create
+            operation: Update
+            time: "2021-09-24T08:36:54Z"
+          name: image-params
+          resourceVersion: "3894866"
+          selfLink: /apis/tekton.dev/v1beta1/clustertasks/image-params
+          uid: 8a5f9f01-d5ee-4e85-907d-f83194e0f5db
+        spec:
+          params:
+          - default: ubuntu
+            name: image
+            type: string
+          - default: IfNotPresent
+            name: imagePullPolicy
+            type: string
+          steps:
+          - image: $(params.image)
+            imagePullPolicy: $(params.imagePullPolicy)
+            name: ""
+            resources: {}
+            script: echo hello
+        
+        ---
+        apiVersion: tekton.dev/v1beta1
+        kind: TaskRun
+        metadata:
+          annotations:
+            pipeline.tekton.dev/release: dd6a931
+          creationTimestamp: "2021-09-27T09:48:46Z"
+          generation: 1
+          labels:
+            app.kubernetes.io/managed-by: tekton-pipelines
+            tekton.dev/task: build-push-kaniko
+          managedFields:
+          - apiVersion: tekton.dev/v1alpha1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:spec:
+                .: {}
+                f:inputs:
+                  .: {}
+                  f:params: {}
+                  f:resources: {}
+                f:outputs:
+                  .: {}
+                  f:resources: {}
+                f:taskRef:
+                  .: {}
+                  f:name: {}
+            manager: kubectl-create
+            operation: Update
+            time: "2021-09-27T09:48:46Z"
+          - apiVersion: tekton.dev/v1beta1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:metadata:
+                f:annotations:
+                  .: {}
+                  f:pipeline.tekton.dev/release: {}
+                f:labels:
+                  f:tekton.dev/task: {}
+              f:status:
+                f:completionTime: {}
+                f:conditions: {}
+                f:podName: {}
+                f:sidecars: {}
+                f:startTime: {}
+                f:steps: {}
+                f:taskSpec:
+                  .: {}
+                  f:params: {}
+                  f:resources:
+                    .: {}
+                    f:inputs: {}
+                    f:outputs: {}
+                  f:sidecars: {}
+                  f:steps: {}
+            manager: controller
+            operation: Update
+            time: "2021-09-27T09:49:12Z"
+          name: build-push-kaniko
+          namespace: arendelle-l767d
+          resourceVersion: "5553452"
+          selfLink: /apis/tekton.dev/v1beta1/namespaces/arendelle-l767d/taskruns/build-push-kaniko
+          uid: b4c4c79f-046a-424f-8901-b02d7a51caa1
+        spec:
+          params:
+          - name: pathToDockerFile
+            value: Dockerfile
+          - name: pathToContext
+            value: /workspace/workspace/examples/microservices/leeroy-web
+          - name: BASE
+            value: golang:1.15
+          resources:
+            inputs:
+            - name: workspace
+              resourceRef:
+                name: skaffold-git-build-push-kaniko
+            outputs:
+            - name: builtImage
+              resourceRef:
+                name: skaffold-image-leeroy-web-build-push-kaniko
+          serviceAccountName: default
+          taskRef:
+            kind: Task
+            name: build-push-kaniko
+          timeout: 1h0m0s
+        status:
+          completionTime: "2021-09-27T09:49:12Z"
+          conditions:
+          - lastTransitionTime: "2021-09-27T09:49:12Z"
+            message: |
+              "step-build-and-push" exited with code 1 (image: "docker-pullable://ibmcom/kaniko-project-executor-ppc64le@sha256:12b70da4fd0a89d103e12c0d7900ae416995f13229e2aea8919fd15e52dfa76e"); for logs run: kubectl -n arendelle-l767d logs build-push-kaniko-pod-ngk46 -c step-build-and-push
+            reason: Failed
+            status: "False"
+            type: Succeeded
+          podName: build-push-kaniko-pod-ngk46
+          sidecars:
+          - container: sidecar-registry
+            imageID: docker-pullable://ppc64le/registry@sha256:b30e5b352ab4e523d7a02a0a99ca0dc32b1c61c71507b82c17f26b31c6a75632
+            name: registry
+            running:
+              startedAt: "2021-09-27T09:48:52Z"
+          startTime: "2021-09-27T09:48:46Z"
+          steps:
+          - container: step-create-dir-builtimage-xbmdb
+            imageID: docker-pullable://gcr.io/distroless/base@sha256:aa4fd987555ea10e1a4ec8765da8158b5ffdfef1e72da512c7ede509bc9966c4
+            name: create-dir-builtimage-xbmdb
+            terminated:
+              containerID: docker://0a19bfc39fa368174c34071184f6afe6ce2dbbafcdc0164d8bc20b4d34096b00
+              exitCode: 0
+              finishedAt: "2021-09-27T09:48:54Z"
+              reason: Completed
+              startedAt: "2021-09-27T09:48:54Z"
+          - container: step-git-source-workspace-gkwtm
+            imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/git-init-4874978a9786b6625dd8b6ef2a21aa70@sha256:c5cab2b09763e83d95d01df212b9666abfa6348a56b4496e0e7e914cfe150f5f
+            name: git-source-workspace-gkwtm
+            terminated:
+              containerID: docker://3873d0ea162e16f0d55d54b95082ca2968d526a6085c7e9eb3457b4b70d2c4e5
+              exitCode: 0
+              finishedAt: "2021-09-27T09:49:06Z"
+              message: '[{"key":"commit","value":"edd1d458902d64e51e17b83514e1fc693c248259","resourceName":"workspace","resourceRef":{"name":"workspace"}},{"key":"url","value":"https://github.com/GoogleContainerTools/skaffold","resourceName":"workspace","resourceRef":{"name":"workspace"}}]'
+              reason: Completed
+              startedAt: "2021-09-27T09:48:54Z"
+          - container: step-build-and-push
+            imageID: docker-pullable://ibmcom/kaniko-project-executor-ppc64le@sha256:12b70da4fd0a89d103e12c0d7900ae416995f13229e2aea8919fd15e52dfa76e
+            name: build-and-push
+            terminated:
+              containerID: docker://931e62a7352fc1aa041aa573ec0f116a39560fc48327abdfde4f8dd35bea5a2f
+              exitCode: 1
+              finishedAt: "2021-09-27T09:49:09Z"
+              reason: Error
+              startedAt: "2021-09-27T09:49:06Z"
+          - container: step-image-digest-exporter-zxsbj
+            imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/imagedigestexporter-6e7c518e6125f31761ebe0b96cc63971@sha256:4b49cd61de200fabf6c6446ceb9b4391ca99298d900a905b3e069dd429421b29
+            name: image-digest-exporter-zxsbj
+            terminated:
+              containerID: docker://e4db717019759b73c5ab08a1affe4e93cdf51b3a919a50f99471f0c9559f6531
+              exitCode: 1
+              finishedAt: "2021-09-27T09:49:10Z"
+              reason: Error
+              startedAt: "2021-09-27T09:49:10Z"
+          taskSpec:
+            params:
+            - default: /workspace/workspace/Dockerfile
+              description: The path to the dockerfile to build
+              name: pathToDockerFile
+              type: string
+            - default: /workspace/workspace
+              description: The build context used by Kaniko (https://github.com/GoogleContainerTools/kaniko#kaniko-build-contexts)
+              name: pathToContext
+              type: string
+            - default: alpine:3.9
+              name: BASE
+              type: string
+            resources:
+              inputs:
+              - name: workspace
+                type: git
+              outputs:
+              - name: builtImage
+                type: image
+            sidecars:
+            - image: ppc64le/registry:2
+              name: registry
+              resources: {}
+            steps:
+            - args:
+              - --dockerfile=$(inputs.params.pathToDockerFile)
+              - --destination=$(outputs.resources.builtImage.url)
+              - --context=$(inputs.params.pathToContext)
+              - --oci-layout-path=$(inputs.resources.builtImage.path)
+              - --build-arg=$(inputs.params.BASE)
+              env:
+              - name: DOCKER_CONFIG
+                value: /tekton/home/.docker/
+              image: ibmcom/kaniko-project-executor-ppc64le:v0.17.1
+              name: build-and-push
+              resources: {}
+              securityContext:
+                runAsUser: 0
+        
+        ---
+        metadata:
+          annotations:
+            cni.projectcalico.org/containerID: 6c712ea9b847be2c185d4807443280c100fdfc5a9b1592357a677cfc047dde48
+            cni.projectcalico.org/podIP: 172.20.64.27/32
+            cni.projectcalico.org/podIPs: 172.20.64.27/32
+            pipeline.tekton.dev/release: dd6a931
+            tekton.dev/ready: READY
+          creationTimestamp: "2021-09-27T09:48:47Z"
+          labels:
+            app.kubernetes.io/managed-by: tekton-pipelines
+            tekton.dev/task: build-push-kaniko
+            tekton.dev/taskRun: build-push-kaniko
+          managedFields:
+          - apiVersion: v1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:metadata:
+                f:annotations:
+                  f:cni.projectcalico.org/containerID: {}
+                  f:cni.projectcalico.org/podIP: {}
+                  f:cni.projectcalico.org/podIPs: {}
+            manager: calico
+            operation: Update
+            time: "2021-09-27T09:48:48Z"
+          - apiVersion: v1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:metadata:
+                f:annotations:
+                  .: {}
+                  f:pipeline.tekton.dev/release: {}
+                  f:tekton.dev/ready: {}
+                f:labels:
+                  .: {}
+                  f:app.kubernetes.io/managed-by: {}
+                  f:tekton.dev/task: {}
+                  f:tekton.dev/taskRun: {}
+                f:ownerReferences:
+                  .: {}
+                  k:{"uid":"b4c4c79f-046a-424f-8901-b02d7a51caa1"}:
+                    .: {}
+                    f:apiVersion: {}
+                    f:blockOwnerDeletion: {}
+                    f:controller: {}
+                    f:kind: {}
+                    f:name: {}
+                    f:uid: {}
+              f:spec:
+                f:activeDeadlineSeconds: {}
+                f:containers:
+                  k:{"name":"sidecar-registry"}:
+                    .: {}
+                    f:image: {}
+                    f:imagePullPolicy: {}
+                    f:name: {}
+                    f:resources: {}
+                    f:terminationMessagePath: {}
+                    f:terminationMessagePolicy: {}
+                  k:{"name":"step-build-and-push"}:
+                    .: {}
+                    f:args: {}
+                    f:command: {}
+                    f:env:
+                      .: {}
+                      k:{"name":"DOCKER_CONFIG"}:
+                        .: {}
+                        f:name: {}
+                        f:value: {}
+                    f:image: {}
+                    f:imagePullPolicy: {}
+                    f:name: {}
+                    f:resources: {}
+                    f:securityContext:
+                      .: {}
+                      f:runAsUser: {}
+                    f:terminationMessagePath: {}
+                    f:terminationMessagePolicy: {}
+                    f:volumeMounts:
+                      .: {}
+                      k:{"mountPath":"/tekton/bin"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                        f:readOnly: {}
+                      k:{"mountPath":"/tekton/creds"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/home"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/results"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/run"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/steps"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/workspace"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                  k:{"name":"step-create-dir-builtimage-xbmdb"}:
+                    .: {}
+                    f:args: {}
+                    f:command: {}
+                    f:image: {}
+                    f:imagePullPolicy: {}
+                    f:name: {}
+                    f:resources: {}
+                    f:terminationMessagePath: {}
+                    f:terminationMessagePolicy: {}
+                    f:volumeMounts:
+                      .: {}
+                      k:{"mountPath":"/tekton/bin"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                        f:readOnly: {}
+                      k:{"mountPath":"/tekton/creds"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/downward"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/home"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/results"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/run"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/steps"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/workspace"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                  k:{"name":"step-git-source-workspace-gkwtm"}:
+                    .: {}
+                    f:args: {}
+                    f:command: {}
+                    f:env:
+                      .: {}
+                      k:{"name":"HOME"}:
+                        .: {}
+                        f:name: {}
+                        f:value: {}
+                      k:{"name":"TEKTON_RESOURCE_NAME"}:
+                        .: {}
+                        f:name: {}
+                        f:value: {}
+                    f:image: {}
+                    f:imagePullPolicy: {}
+                    f:name: {}
+                    f:resources: {}
+                    f:terminationMessagePath: {}
+                    f:terminationMessagePolicy: {}
+                    f:volumeMounts:
+                      .: {}
+                      k:{"mountPath":"/tekton/bin"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                        f:readOnly: {}
+                      k:{"mountPath":"/tekton/creds"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/home"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/results"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/run"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/steps"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/workspace"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                    f:workingDir: {}
+                  k:{"name":"step-image-digest-exporter-zxsbj"}:
+                    .: {}
+                    f:args: {}
+                    f:command: {}
+                    f:image: {}
+                    f:imagePullPolicy: {}
+                    f:name: {}
+                    f:resources: {}
+                    f:terminationMessagePath: {}
+                    f:terminationMessagePolicy: {}
+                    f:volumeMounts:
+                      .: {}
+                      k:{"mountPath":"/tekton/bin"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                        f:readOnly: {}
+                      k:{"mountPath":"/tekton/creds"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/home"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/results"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/run"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/tekton/steps"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                      k:{"mountPath":"/workspace"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                f:dnsPolicy: {}
+                f:enableServiceLinks: {}
+                f:initContainers:
+                  .: {}
+                  k:{"name":"place-tools"}:
+                    .: {}
+                    f:command: {}
+                    f:image: {}
+                    f:imagePullPolicy: {}
+                    f:name: {}
+                    f:resources: {}
+                    f:terminationMessagePath: {}
+                    f:terminationMessagePolicy: {}
+                    f:volumeMounts:
+                      .: {}
+                      k:{"mountPath":"/tekton/bin"}:
+                        .: {}
+                        f:mountPath: {}
+                        f:name: {}
+                    f:workingDir: {}
+                f:restartPolicy: {}
+                f:schedulerName: {}
+                f:securityContext: {}
+                f:serviceAccount: {}
+                f:serviceAccountName: {}
+                f:terminationGracePeriodSeconds: {}
+                f:volumes:
+                  .: {}
+                  k:{"name":"tekton-creds-init-home-0"}:
+                    .: {}
+                    f:emptyDir:
+                      .: {}
+                      f:medium: {}
+                    f:name: {}
+                  k:{"name":"tekton-creds-init-home-1"}:
+                    .: {}
+                    f:emptyDir:
+                      .: {}
+                      f:medium: {}
+                    f:name: {}
+                  k:{"name":"tekton-creds-init-home-2"}:
+                    .: {}
+                    f:emptyDir:
+                      .: {}
+                      f:medium: {}
+                    f:name: {}
+                  k:{"name":"tekton-creds-init-home-3"}:
+                    .: {}
+                    f:emptyDir:
+                      .: {}
+                      f:medium: {}
+                    f:name: {}
+                  k:{"name":"tekton-internal-bin"}:
+                    .: {}
+                    f:emptyDir: {}
+                    f:name: {}
+                  k:{"name":"tekton-internal-downward"}:
+                    .: {}
+                    f:downwardAPI:
+                      .: {}
+                      f:defaultMode: {}
+                      f:items: {}
+                    f:name: {}
+                  k:{"name":"tekton-internal-home"}:
+                    .: {}
+                    f:emptyDir: {}
+                    f:name: {}
+                  k:{"name":"tekton-internal-results"}:
+                    .: {}
+                    f:emptyDir: {}
+                    f:name: {}
+                  k:{"name":"tekton-internal-run"}:
+                    .: {}
+                    f:emptyDir: {}
+                    f:name: {}
+                  k:{"name":"tekton-internal-steps"}:
+                    .: {}
+                    f:emptyDir: {}
+                    f:name: {}
+                  k:{"name":"tekton-internal-workspace"}:
+                    .: {}
+                    f:emptyDir: {}
+                    f:name: {}
+            manager: controller
+            operation: Update
+            time: "2021-09-27T09:49:12Z"
+          - apiVersion: v1
+            fieldsType: FieldsV1
+            fieldsV1:
+              f:status:
+                f:conditions:
+                  k:{"type":"ContainersReady"}:
+                    .: {}
+                    f:lastProbeTime: {}
+                    f:lastTransitionTime: {}
+                    f:message: {}
+                    f:reason: {}
+                    f:status: {}
+                    f:type: {}
+                  k:{"type":"Initialized"}:
+                    .: {}
+                    f:lastProbeTime: {}
+                    f:lastTransitionTime: {}
+                    f:status: {}
+                    f:type: {}
+                  k:{"type":"Ready"}:
+                    .: {}
+                    f:lastProbeTime: {}
+                    f:lastTransitionTime: {}
+                    f:message: {}
+                    f:reason: {}
+                    f:status: {}
+                    f:type: {}
+                f:containerStatuses: {}
+                f:hostIP: {}
+                f:initContainerStatuses: {}
+                f:phase: {}
+                f:podIP: {}
+                f:podIPs:
+                  .: {}
+                  k:{"ip":"172.20.64.27"}:
+                    .: {}
+                    f:ip: {}
+                f:startTime: {}
+            manager: kubelet
+            operation: Update
+            time: "2021-09-27T09:49:12Z"
+          name: build-push-kaniko-pod-ngk46
+          namespace: arendelle-l767d
+          ownerReferences:
+          - apiVersion: tekton.dev/v1beta1
+            blockOwnerDeletion: true
+            controller: true
+            kind: TaskRun
+            name: build-push-kaniko
+            uid: b4c4c79f-046a-424f-8901-b02d7a51caa1
+          resourceVersion: "5553453"
+          selfLink: /api/v1/namespaces/arendelle-l767d/pods/build-push-kaniko-pod-ngk46
+          uid: 0350a75b-d8cf-4f18-ae37-aedd6fe52469
+        spec:
+          activeDeadlineSeconds: 5400
+          containers:
+          - args:
+            - -wait_file
+            - /tekton/downward/ready
+            - -wait_file_content
+            - -post_file
+            - /tekton/run/0
+            - -termination_path
+            - /tekton/termination
+            - -step_metadata_dir
+            - /tekton/steps/step-create-dir-builtimage-xbmdb
+            - -step_metadata_dir_link
+            - /tekton/steps/0
+            - -entrypoint
+            - mkdir
+            - --
+            - -p
+            - /workspace/output/builtImage
+            command:
+            - /tekton/bin/entrypoint
+            image: gcr.io/distroless/base@sha256:aa4fd987555ea10e1a4ec8765da8158b5ffdfef1e72da512c7ede509bc9966c4
+            imagePullPolicy: IfNotPresent
+            name: step-create-dir-builtimage-xbmdb
+            resources: {}
+            terminationMessagePath: /tekton/termination
+            terminationMessagePolicy: File
+            volumeMounts:
+            - mountPath: /tekton/bin
+              name: tekton-internal-bin
+              readOnly: true
+            - mountPath: /tekton/run
+              name: tekton-internal-run
+            - mountPath: /tekton/downward
+              name: tekton-internal-downward
+            - mountPath: /tekton/creds
+              name: tekton-creds-init-home-0
+            - mountPath: /workspace
+              name: tekton-internal-workspace
+            - mountPath: /tekton/home
+              name: tekton-internal-home
+            - mountPath: /tekton/results
+              name: tekton-internal-results
+            - mountPath: /tekton/steps
+              name: tekton-internal-steps
+            - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+              name: default-token-fcx7n
+              readOnly: true
+          - args:
+            - -wait_file
+            - /tekton/run/0
+            - -post_file
+            - /tekton/run/1
+            - -termination_path
+            - /tekton/termination
+            - -step_metadata_dir
+            - /tekton/steps/step-git-source-workspace-gkwtm
+            - -step_metadata_dir_link
+            - /tekton/steps/1
+            - -entrypoint
+            - /ko-app/git-init
+            - --
+            - -url
+            - https://github.com/GoogleContainerTools/skaffold
+            - -path
+            - /workspace/workspace
+            - -revision
+            - v1.32.0
+            command:
+            - /tekton/bin/entrypoint
+            env:
+            - name: TEKTON_RESOURCE_NAME
+              value: workspace
+            - name: HOME
+              value: /tekton/home
+            image: ppc64le-cluster.bastion-p.svc.cluster.local:443/git-init-4874978a9786b6625dd8b6ef2a21aa70@sha256:c5cab2b09763e83d95d01df212b9666abfa6348a56b4496e0e7e914cfe150f5f
+            imagePullPolicy: IfNotPresent
+            name: step-git-source-workspace-gkwtm
+            resources: {}
+            terminationMessagePath: /tekton/termination
+            terminationMessagePolicy: File
+            volumeMounts:
+            - mountPath: /tekton/bin
+              name: tekton-internal-bin
+              readOnly: true
+            - mountPath: /tekton/run
+              name: tekton-internal-run
+            - mountPath: /tekton/creds
+              name: tekton-creds-init-home-1
+            - mountPath: /workspace
+              name: tekton-internal-workspace
+            - mountPath: /tekton/home
+              name: tekton-internal-home
+            - mountPath: /tekton/results
+              name: tekton-internal-results
+            - mountPath: /tekton/steps
+              name: tekton-internal-steps
+            - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+              name: default-token-fcx7n
+              readOnly: true
+            workingDir: /workspace
+          - args:
+            - -wait_file
+            - /tekton/run/1
+            - -post_file
+            - /tekton/run/2
+            - -termination_path
+            - /tekton/termination
+            - -step_metadata_dir
+            - /tekton/steps/step-build-and-push
+            - -step_metadata_dir_link
+            - /tekton/steps/2
+            - -entrypoint
+            - /kaniko/executor
+            - --
+            - --dockerfile=Dockerfile
+            - --destination=localhost:5000/leeroy-web
+            - --context=/workspace/workspace/examples/microservices/leeroy-web
+            - --oci-layout-path=$(inputs.resources.builtImage.path)
+            - --build-arg=golang:1.15
+            command:
+            - /tekton/bin/entrypoint
+            env:
+            - name: DOCKER_CONFIG
+              value: /tekton/home/.docker/
+            image: index.docker.io/ibmcom/kaniko-project-executor-ppc64le@sha256:12b70da4fd0a89d103e12c0d7900ae416995f13229e2aea8919fd15e52dfa76e
+            imagePullPolicy: IfNotPresent
+            name: step-build-and-push
+            resources: {}
+            securityContext:
+              runAsUser: 0
+            terminationMessagePath: /tekton/termination
+            terminationMessagePolicy: File
+            volumeMounts:
+            - mountPath: /tekton/bin
+              name: tekton-internal-bin
+              readOnly: true
+            - mountPath: /tekton/run
+              name: tekton-internal-run
+            - mountPath: /tekton/creds
+              name: tekton-creds-init-home-2
+            - mountPath: /workspace
+              name: tekton-internal-workspace
+            - mountPath: /tekton/home
+              name: tekton-internal-home
+            - mountPath: /tekton/results
+              name: tekton-internal-results
+            - mountPath: /tekton/steps
+              name: tekton-internal-steps
+            - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+              name: default-token-fcx7n
+              readOnly: true
+          - args:
+            - -wait_file
+            - /tekton/run/2
+            - -post_file
+            - /tekton/run/3
+            - -termination_path
+            - /tekton/termination
+            - -step_metadata_dir
+            - /tekton/steps/step-image-digest-exporter-zxsbj
+            - -step_metadata_dir_link
+            - /tekton/steps/3
+            - -entrypoint
+            - /ko-app/imagedigestexporter
+            - --
+            - -images
+            - '[{"name":"builtImage","type":"image","url":"localhost:5000/leeroy-web","digest":"","OutputImageDir":"/workspace/output/builtImage"}]'
+            command:
+            - /tekton/bin/entrypoint
+            image: ppc64le-cluster.bastion-p.svc.cluster.local:443/imagedigestexporter-6e7c518e6125f31761ebe0b96cc63971@sha256:4b49cd61de200fabf6c6446ceb9b4391ca99298d900a905b3e069dd429421b29
+            imagePullPolicy: IfNotPresent
+            name: step-image-digest-exporter-zxsbj
+            resources: {}
+            terminationMessagePath: /tekton/termination
+            terminationMessagePolicy: File
+            volumeMounts:
+            - mountPath: /tekton/bin
+              name: tekton-internal-bin
+              readOnly: true
+            - mountPath: /tekton/run
+              name: tekton-internal-run
+            - mountPath: /tekton/creds
+              name: tekton-creds-init-home-3
+            - mountPath: /workspace
+              name: tekton-internal-workspace
+            - mountPath: /tekton/home
+              name: tekton-internal-home
+            - mountPath: /tekton/results
+              name: tekton-internal-results
+            - mountPath: /tekton/steps
+              name: tekton-internal-steps
+            - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+              name: default-token-fcx7n
+              readOnly: true
+          - image: ppc64le-cluster.bastion-p.svc.cluster.local:443/nop-8eac7c133edad5df719dc37b36b62482@sha256:c6acf12a6d572eabade934756e3125bd20ca2c3ebf4018127db0b523b2693545
+            imagePullPolicy: IfNotPresent
+            name: sidecar-registry
+            resources: {}
+            terminationMessagePath: /dev/termination-log
+            terminationMessagePolicy: File
+            volumeMounts:
+            - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+              name: default-token-fcx7n
+              readOnly: true
+          dnsPolicy: ClusterFirst
+          enableServiceLinks: true
+          initContainers:
+          - command:
+            - /ko-app/entrypoint
+            - cp
+            - /ko-app/entrypoint
+            - /tekton/bin/entrypoint
+            image: ppc64le-cluster.bastion-p.svc.cluster.local:443/entrypoint-bff0a22da108bc2f16c818c97641a296@sha256:df99833a9fc55f041338a47a82b1af7aa4862c0481ec6e65c1516f018b438caf
+            imagePullPolicy: IfNotPresent
+            name: place-tools
+            resources: {}
+            terminationMessagePath: /dev/termination-log
+            terminationMessagePolicy: File
+            volumeMounts:
+            - mountPath: /tekton/bin
+              name: tekton-internal-bin
+            - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+              name: default-token-fcx7n
+              readOnly: true
+            workingDir: /
+          nodeName: snat-vm1
+          preemptionPolicy: PreemptLowerPriority
+          priority: 0
+          restartPolicy: Never
+          schedulerName: default-scheduler
+          securityContext: {}
+          serviceAccount: default
+          serviceAccountName: default
+          terminationGracePeriodSeconds: 30
+          tolerations:
+          - effect: NoExecute
+            key: node.kubernetes.io/not-ready
+            operator: Exists
+            tolerationSeconds: 300
+          - effect: NoExecute
+            key: node.kubernetes.io/unreachable
+            operator: Exists
+            tolerationSeconds: 300
+          volumes:
+          - emptyDir: {}
+            name: tekton-internal-workspace
+          - emptyDir: {}
+            name: tekton-internal-home
+          - emptyDir: {}
+            name: tekton-internal-results
+          - emptyDir: {}
+            name: tekton-internal-steps
+          - emptyDir: {}
+            name: tekton-internal-bin
+          - emptyDir: {}
+            name: tekton-internal-run
+          - downwardAPI:
+              defaultMode: 420
+              items:
+              - fieldRef:
+                  apiVersion: v1
+                  fieldPath: metadata.annotations['tekton.dev/ready']
+                path: ready
+            name: tekton-internal-downward
+          - emptyDir:
+              medium: Memory
+            name: tekton-creds-init-home-0
+          - emptyDir:
+              medium: Memory
+            name: tekton-creds-init-home-1
+          - emptyDir:
+              medium: Memory
+            name: tekton-creds-init-home-2
+          - emptyDir:
+              medium: Memory
+            name: tekton-creds-init-home-3
+          - name: default-token-fcx7n
+            secret:
+              defaultMode: 420
+              secretName: default-token-fcx7n
+        status:
+          conditions:
+          - lastProbeTime: null
+            lastTransitionTime: "2021-09-27T09:48:49Z"
+            status: "True"
+            type: Initialized
+          - lastProbeTime: null
+            lastTransitionTime: "2021-09-27T09:48:55Z"
+            message: 'containers with unready status: [step-create-dir-builtimage-xbmdb step-git-source-workspace-gkwtm
+              step-build-and-push step-image-digest-exporter-zxsbj]'
+            reason: ContainersNotReady
+            status: "False"
+            type: Ready
+          - lastProbeTime: null
+            lastTransitionTime: "2021-09-27T09:48:55Z"
+            message: 'containers with unready status: [step-create-dir-builtimage-xbmdb step-git-source-workspace-gkwtm
+              step-build-and-push step-image-digest-exporter-zxsbj]'
+            reason: ContainersNotReady
+            status: "False"
+            type: ContainersReady
+          - lastProbeTime: null
+            lastTransitionTime: "2021-09-27T09:48:47Z"
+            status: "True"
+            type: PodScheduled
+          containerStatuses:
+          - containerID: docker://2951de66fae3f5de384029d3d3af01721b4e6270d9d997ddcc0ddc22e003256e
+            image: ppc64le/registry:2
+            imageID: docker-pullable://ppc64le/registry@sha256:b30e5b352ab4e523d7a02a0a99ca0dc32b1c61c71507b82c17f26b31c6a75632
+            lastState: {}
+            name: sidecar-registry
+            ready: true
+            restartCount: 0
+            started: true
+            state:
+              running:
+                startedAt: "2021-09-27T09:48:52Z"
+          - containerID: docker://931e62a7352fc1aa041aa573ec0f116a39560fc48327abdfde4f8dd35bea5a2f
+            image: ibmcom/kaniko-project-executor-ppc64le:v0.17.1
+            imageID: docker-pullable://ibmcom/kaniko-project-executor-ppc64le@sha256:12b70da4fd0a89d103e12c0d7900ae416995f13229e2aea8919fd15e52dfa76e
+            lastState: {}
+            name: step-build-and-push
+            ready: false
+            restartCount: 0
+            started: false
+            state:
+              terminated:
+                containerID: docker://931e62a7352fc1aa041aa573ec0f116a39560fc48327abdfde4f8dd35bea5a2f
+                exitCode: 1
+                finishedAt: "2021-09-27T09:49:09Z"
+                message: '[{"key":"StartedAt","value":"2021-09-27T09:49:06.484Z","type":3}]'
+                reason: Error
+                startedAt: "2021-09-27T09:48:51Z"
+          - containerID: docker://0a19bfc39fa368174c34071184f6afe6ce2dbbafcdc0164d8bc20b4d34096b00
+            image: sha256:2b725792e3b49e8cfdc1214f355219693d58ac02ef3751cfaa451da71a46f29d
+            imageID: docker-pullable://gcr.io/distroless/base@sha256:aa4fd987555ea10e1a4ec8765da8158b5ffdfef1e72da512c7ede509bc9966c4
+            lastState: {}
+            name: step-create-dir-builtimage-xbmdb
+            ready: false
+            restartCount: 0
+            started: false
+            state:
+              terminated:
+                containerID: docker://0a19bfc39fa368174c34071184f6afe6ce2dbbafcdc0164d8bc20b4d34096b00
+                exitCode: 0
+                finishedAt: "2021-09-27T09:48:54Z"
+                message: '[{"key":"StartedAt","value":"2021-09-27T09:48:54.377Z","type":3}]'
+                reason: Completed
+                startedAt: "2021-09-27T09:48:50Z"
+          - containerID: docker://3873d0ea162e16f0d55d54b95082ca2968d526a6085c7e9eb3457b4b70d2c4e5
+            image: sha256:cea0a16c57943c0b9d9577db4017eea2781174e455281a93cf2533e42c62ad5f
+            imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/git-init-4874978a9786b6625dd8b6ef2a21aa70@sha256:c5cab2b09763e83d95d01df212b9666abfa6348a56b4496e0e7e914cfe150f5f
+            lastState: {}
+            name: step-git-source-workspace-gkwtm
+            ready: false
+            restartCount: 0
+            started: false
+            state:
+              terminated:
+                containerID: docker://3873d0ea162e16f0d55d54b95082ca2968d526a6085c7e9eb3457b4b70d2c4e5
+                exitCode: 0
+                finishedAt: "2021-09-27T09:49:06Z"
+                message: '[{"key":"commit","value":"edd1d458902d64e51e17b83514e1fc693c248259","resourceName":"workspace","resourceRef":{"name":"workspace"}},{"key":"url","value":"https://github.com/GoogleContainerTools/skaffold","resourceName":"workspace","resourceRef":{"name":"workspace"}},{"key":"StartedAt","value":"2021-09-27T09:48:54.909Z","type":3}]'
+                reason: Completed
+                startedAt: "2021-09-27T09:48:50Z"
+          - containerID: docker://e4db717019759b73c5ab08a1affe4e93cdf51b3a919a50f99471f0c9559f6531
+            image: sha256:6f40bd0d4755ea63b7c947c27d7693efd3c474110f5adf8da91beffc7582df41
+            imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/imagedigestexporter-6e7c518e6125f31761ebe0b96cc63971@sha256:4b49cd61de200fabf6c6446ceb9b4391ca99298d900a905b3e069dd429421b29
+            lastState: {}
+            name: step-image-digest-exporter-zxsbj
+            ready: false
+            restartCount: 0
+            started: false
+            state:
+              terminated:
+                containerID: docker://e4db717019759b73c5ab08a1affe4e93cdf51b3a919a50f99471f0c9559f6531
+                exitCode: 1
+                finishedAt: "2021-09-27T09:49:10Z"
+                message: '[{"key":"StartedAt","value":"2021-09-27T09:49:10.007Z","type":3}]'
+                reason: Error
+                startedAt: "2021-09-27T09:48:51Z"
+          hostIP: 192.168.100.196
+          initContainerStatuses:
+          - containerID: docker://6aa77d7ed08ef6a4b6b46197d2a206970e5fa4fe7e3e685ebffc8806b4c9a764
+            image: sha256:d975546f4bb18a7f980643e2b244701ceecc3e613dc20593a1ac98836f125993
+            imageID: docker-pullable://ppc64le-cluster.bastion-p.svc.cluster.local:443/entrypoint-bff0a22da108bc2f16c818c97641a296@sha256:df99833a9fc55f041338a47a82b1af7aa4862c0481ec6e65c1516f018b438caf
+            lastState: {}
+            name: place-tools
+            ready: true
+            restartCount: 0
+            state:
+              terminated:
+                containerID: docker://6aa77d7ed08ef6a4b6b46197d2a206970e5fa4fe7e3e685ebffc8806b4c9a764
+                exitCode: 0
+                finishedAt: "2021-09-27T09:48:49Z"
+                reason: Completed
+                startedAt: "2021-09-27T09:48:49Z"
+          phase: Running
+          podIP: 172.20.64.27
+          podIPs:
+          - ip: 172.20.64.27
+          qosClass: BestEffort
+          startTime: "2021-09-27T09:48:47Z"
+        
+    panic.go:636: #####################################################
+    panic.go:636: ### Dumping logs from Pods in the arendelle-l767d ###
+    panic.go:636: #####################################################
+    build_logs.go:37: build logs 
+        >>> Container step-create-dir-builtimage-xbmdb:
+        
+        >>> Container step-git-source-workspace-gkwtm:
+        {"level":"info","ts":1632736146.1352365,"caller":"git/git.go:169","msg":"Successfully cloned https://github.com/GoogleContainerTools/skaffold @ edd1d458902d64e51e17b83514e1fc693c248259 (grafted, HEAD) in path /workspace/workspace"}
+        {"level":"info","ts":1632736146.1569636,"caller":"git/git.go:207","msg":"Successfully initialized and updated submodules in path /workspace/workspace"}
+        
+        >>> Container step-build-and-push:
+        [36mINFO[0m[0000] Resolved base name golang:1.15 to golang:1.15 
+        [36mINFO[0m[0000] Resolved base name $BASE to                  
+        [36mINFO[0m[0000] Resolved base name golang:1.15 to golang:1.15 
+        [36mINFO[0m[0000] Resolved base name $BASE to                  
+        [36mINFO[0m[0000] Retrieving image manifest golang:1.15        
+        [36mINFO[0m[0001] Retrieving image manifest golang:1.15        
+        [31mERRO[0m[0001] Error while retrieving image from cache:  could not parse reference:  
+        [36mINFO[0m[0001] Retrieving image manifest                    
+        error building image: could not parse reference: 
+        
+        >>> Container step-image-digest-exporter-zxsbj:
+        2021/09/27 09:49:10 Skipping step because a previous step failed
+        
+        >>> Container sidecar-registry:
+        time="2021-09-27T09:48:52.592472Z" level=info msg="debug server listening localhost:5001" 
+        time="2021-09-27T09:48:52.593699Z" level=warning msg="No HTTP secret provided - generated random secret. This may cause problems with uploads if multiple registries are behind a load-balancer. To provide a shared secret, fill in http.secret in the configuration file or set the REGISTRY_HTTP_SECRET environment variable." environment=development go.version=go1.6.2 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:48:52.593752Z" level=info msg="endpoint local-5003 disabled, skipping" environment=development go.version=go1.6.2 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:48:52.593788Z" level=info msg="endpoint local-8083 disabled, skipping" environment=development go.version=go1.6.2 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:48:52.596254Z" level=info msg="using redis blob descriptor cache" environment=development go.version=go1.6.2 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:48:52.596403Z" level=info msg="listening on [::]:5000" environment=development go.version=go1.6.2 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:02.596791Z" level=debug msg="filesystem.List(\"/\")" environment=development go.version=go1.6.2 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=68µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).List" trace.id=6eb8c6f5-0db5-426f-8c68-168fa296536d trace.line=150 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.147953Z" level=debug msg="authorizing request" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=480ccd54-4822-48c0-949e-e28aea01291f http.request.method=GET http.request.remoteaddr="127.0.0.1:55938" http.request.uri="/v2/" http.request.useragent="Go-http-client/1.1" instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.148045Z" level=info msg="response completed" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=480ccd54-4822-48c0-949e-e28aea01291f http.request.method=GET http.request.remoteaddr="127.0.0.1:55938" http.request.uri="/v2/" http.request.useragent="Go-http-client/1.1" http.response.contenttype="application/json; charset=utf-8" http.response.duration=1.473ms http.response.status=200 http.response.written=2 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        127.0.0.1 - - [27/Sep/2021:09:49:08 +0000] "GET /v2/ HTTP/1.1" 200 2 "" "Go-http-client/1.1"
+        time="2021-09-27T09:49:08.153683Z" level=debug msg="authorizing request" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f066b89d-cd4a-4648-9996-8a7da73874df http.request.method=POST http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.153866Z" level=debug msg="(*linkedBlobStore).Writer" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f066b89d-cd4a-4648-9996-8a7da73874df http.request.method=POST http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.222629Z" level=debug msg="filesystem.PutContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0/startedat\")" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f066b89d-cd4a-4648-9996-8a7da73874df http.request.method=POST http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=68.621ms trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).PutContent" trace.id=0ad76d3c-de91-40f1-aa02-e4c2fa37cfd4 trace.line=95 vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.223078Z" level=debug msg="filesystem.Writer(\"/docker/registry/v2/repositories/leeroy-web/_uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0/data\", false)" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f066b89d-cd4a-4648-9996-8a7da73874df http.request.method=POST http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=237µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).Writer" trace.id=1fb6f046-e71b-4098-a6fe-832573e3e55b trace.line=124 vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.300927Z" level=debug msg="filesystem.PutContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0/hashstates/sha256/0\")" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f066b89d-cd4a-4648-9996-8a7da73874df http.request.method=POST http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=77.348ms trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).PutContent" trace.id=a80574aa-9dfb-4c33-a981-cc1d958e87fa trace.line=95 vars.name=leeroy-web version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.301308Z" level=info msg="response completed" environment=development go.version=go1.6.2 http.request.contenttype="application/json" http.request.host="localhost:5000" http.request.id=f066b89d-cd4a-4648-9996-8a7da73874df http.request.method=POST http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/" http.request.useragent=go-containerregistry http.response.duration=149.094ms http.response.status=202 http.response.written=0 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        127.0.0.1 - - [27/Sep/2021:09:49:08 +0000] "POST /v2/leeroy-web/blobs/uploads/ HTTP/1.1" 202 0 "" "go-containerregistry"
+        time="2021-09-27T09:49:08.304451Z" level=debug msg="authorizing request" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry vars.name=leeroy-web vars.uuid=2d513a1f-31db-4ee5-a2b9-22431afd10a0 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.304685Z" level=debug msg="(*linkedBlobStore).Resume" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry vars.name=leeroy-web vars.uuid=2d513a1f-31db-4ee5-a2b9-22431afd10a0 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.304879Z" level=debug msg="filesystem.GetContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0/startedat\")" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=86µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).GetContent" trace.id=a9073cdf-b7f5-4388-b837-aba57643c09b trace.line=82 vars.name=leeroy-web vars.uuid=2d513a1f-31db-4ee5-a2b9-22431afd10a0 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.305045Z" level=debug msg="filesystem.Writer(\"/docker/registry/v2/repositories/leeroy-web/_uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0/data\", true)" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=56µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).Writer" trace.id=43f2a83c-a2fb-4aed-90af-43e2068df628 trace.line=124 vars.name=leeroy-web vars.uuid=2d513a1f-31db-4ee5-a2b9-22431afd10a0 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.305135Z" level=debug msg="(*blobWriter).Cancel" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry vars.name=leeroy-web vars.uuid=2d513a1f-31db-4ee5-a2b9-22431afd10a0 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.349376Z" level=debug msg="filesystem.PutContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0/hashstates/sha256/0\")" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=44.017ms trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).PutContent" trace.id=0b487ac1-44cc-46d9-9ab8-f71422e8c26b trace.line=95 vars.name=leeroy-web vars.uuid=2d513a1f-31db-4ee5-a2b9-22431afd10a0 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.349477Z" level=error msg="error closing blobwriter: fsync: bad file descriptor" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry vars.name=leeroy-web vars.uuid=2d513a1f-31db-4ee5-a2b9-22431afd10a0 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.349991Z" level=debug msg="filesystem.Delete(\"/docker/registry/v2/repositories/leeroy-web/_uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0\")" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=363µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).Delete" trace.id=4eccf2aa-ba3e-46c5-9f77-715cb9573ac8 trace.line=177 vars.name=leeroy-web vars.uuid=2d513a1f-31db-4ee5-a2b9-22431afd10a0 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.351046Z" level=debug msg="filesystem.PutContent(\"/docker/registry/v2/repositories/leeroy-web/_uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0/hashstates/sha256/0\")" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=876µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).PutContent" trace.id=76db0a74-83ca-44ba-9d46-9f876893f3ec trace.line=95 vars.name=leeroy-web vars.uuid=2d513a1f-31db-4ee5-a2b9-22431afd10a0 version=v2.5.0-rc.1-67-g4abae2a.m 
+        time="2021-09-27T09:49:08.351181Z" level=info msg="response completed" environment=development go.version=go1.6.2 http.request.host="localhost:5000" http.request.id=ef650240-56ec-4a6e-b5dc-d71019a46e7c http.request.method=DELETE http.request.remoteaddr="127.0.0.1:55940" http.request.uri="/v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D" http.request.useragent=go-containerregistry http.response.duration=49.409ms http.response.status=204 http.response.written=0 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry version=v2.5.0-rc.1-67-g4abae2a.m 
+        127.0.0.1 - - [27/Sep/2021:09:49:08 +0000] "DELETE /v2/leeroy-web/blobs/uploads/2d513a1f-31db-4ee5-a2b9-22431afd10a0?_state=MZX7eZqHdwjhPAjvTpHWfZrpUGLTk0qpOCry0bBuUQd7Ik5hbWUiOiJsZWVyb3ktd2ViIiwiVVVJRCI6IjJkNTEzYTFmLTMxZGItNGVlNS1hMmI5LTIyNDMxYWZkMTBhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyMS0wOS0yN1QwOTo0OTowOC4xNTM5MjNaIn0%3D HTTP/1.1" 204 0 "" "go-containerregistry"
+        time="2021-09-27T09:49:12.597003Z" level=debug msg="filesystem.List(\"/\")" environment=development go.version=go1.6.2 instance.id=b24cb9a2-7915-4cdf-b2ad-545cbadc14ef service=registry trace.duration=107µs trace.file="/go/src/github.com/docker/distribution/registry/storage/driver/base/base.go" trace.func="github.com/docker/distribution/registry/storage/driver/base.(*Base).List" trace.id=4d7da1c4-0699-4022-828e-06d78aa684cd trace.line=150 version=v2.5.0-rc.1-67-g4abae2a.m 
+--- FAIL: TestExamples (0.23s)
+    --- FAIL: TestExamples/v1alpha1/taskruns/build-push-kaniko (27.32s)
+FAIL
+Using kubeconfig at `` with cluster ``
+FAIL	github.com/tektoncd/pipeline/test	27.663s
+FAIL
